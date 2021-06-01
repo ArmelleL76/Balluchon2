@@ -53,13 +53,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8x-sB-9oG">
-                                        <rect key="frame" x="119" y="710" width="216" height="54"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <state key="normal" title="Go to Weather">
+                                        <rect key="frame" x="29" y="718" width="396" height="46"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <state key="normal" title="Weather for New York and Rouen">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="n4P-LI-dXy" kind="showDetail" id="Kn0-vh-hx8"/>
+                                            <segue destination="n4P-LI-dXy" kind="show" id="8Ev-a1-Yd6"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -94,24 +94,24 @@
             <objects>
                 <viewController id="n4P-LI-dXy" customClass="TwoTownsWeatherViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e62-nB-qck">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="217-yc-6hp">
-                                <rect key="frame" x="20" y="20" width="374" height="36"/>
+                                <rect key="frame" x="20" y="108" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89q-2Y-9yV">
-                                <rect key="frame" x="20" y="740" width="374" height="48"/>
+                                <rect key="frame" x="20" y="794" width="374" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Ten next days">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="soy-6t-P88">
-                                <rect key="frame" x="177" y="530" width="60" height="60"/>
+                                <rect key="frame" x="177" y="557" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="3Oh-Nw-0gF"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="94D-nP-63d"/>
@@ -120,13 +120,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rouen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSO-fA-ZgN">
-                                <rect key="frame" x="165.5" y="423" width="83" height="36"/>
+                                <rect key="frame" x="165.5" y="450" width="83" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cQa-Jd-GNf">
-                                <rect key="frame" x="177" y="178" width="60" height="60"/>
+                                <rect key="frame" x="177" y="266" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="SmQ-mV-SN5"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="ZRk-E6-3kJ"/>
@@ -135,19 +135,19 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edr-P0-xhQ">
-                                <rect key="frame" x="20" y="122" width="374" height="36"/>
+                                <rect key="frame" x="20" y="210" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New York" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="da2-l0-ETV">
-                                <rect key="frame" x="0.0" y="71" width="414" height="36"/>
+                                <rect key="frame" x="0.0" y="159" width="414" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRQ-sK-kZK">
-                                <rect key="frame" x="20" y="474" width="374" height="36"/>
+                                <rect key="frame" x="20" y="501" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -179,6 +179,7 @@
                             <constraint firstItem="217-yc-6hp" firstAttribute="leading" secondItem="Av8-MI-WZh" secondAttribute="leading" constant="20" id="zPq-re-FT6"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Twb-md-dtf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="byy-mF-UdK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
