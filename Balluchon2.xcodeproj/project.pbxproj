@@ -15,6 +15,7 @@
 		D54DC0032666963C00537ED5 /* Balluchon2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DC0022666963C00537ED5 /* Balluchon2Tests.swift */; };
 		D54DC00E2666963C00537ED5 /* Balluchon2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DC00D2666963C00537ED5 /* Balluchon2UITests.swift */; };
 		D54DC01F2666C87100537ED5 /* WelcomeWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DC01E2666C87100537ED5 /* WelcomeWeatherViewController.swift */; };
+		D54DC0212666CA3C00537ED5 /* TwoTownsWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DC0202666CA3C00537ED5 /* TwoTownsWeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D54DC00D2666963C00537ED5 /* Balluchon2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balluchon2UITests.swift; sourceTree = "<group>"; };
 		D54DC00F2666963C00537ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D54DC01E2666C87100537ED5 /* WelcomeWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWeatherViewController.swift; sourceTree = "<group>"; };
+		D54DC0202666CA3C00537ED5 /* TwoTownsWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTownsWeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				D54DBFF12666963B00537ED5 /* Main.storyboard */,
+				D54DC0202666CA3C00537ED5 /* TwoTownsWeatherViewController.swift */,
 				D54DC01E2666C87100537ED5 /* WelcomeWeatherViewController.swift */,
 				D54DBFF62666963C00537ED5 /* LaunchScreen.storyboard */,
 			);
@@ -284,6 +287,7 @@
 			files = (
 				D54DBFEC2666963B00537ED5 /* AppDelegate.swift in Sources */,
 				D54DC01F2666C87100537ED5 /* WelcomeWeatherViewController.swift in Sources */,
+				D54DC0212666CA3C00537ED5 /* TwoTownsWeatherViewController.swift in Sources */,
 				D54DBFEE2666963B00537ED5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
